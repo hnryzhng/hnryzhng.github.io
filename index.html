@@ -1,1 +1,274 @@
-hi
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Coder. Writer.">
+	
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+		<!-- D3 -->
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+
+		<!-- Font Awesome Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+
+		<!-- call CSS stylings -->
+		<link rel="stylesheet" href="style.css">
+
+		<!-- Title and Favicon -->
+		<title> Welcome to My World </title>
+
+		<link rel="icon" href="static/favicon.png" />
+
+	</head>
+
+	<body>
+
+		<div id="root">
+
+			<section>
+
+				<div class="container-fluid section-container d-flex" id="intro-section">
+
+					
+					<div class="row justify-content-center align-self-center" id="logo-container">
+						<img id="logo" src="./static/logo.png" alt=""/>	
+					</div>
+				
+
+					<div class="align-self-center w-100">
+						<h2 id="name">Henry Zheng</h2>
+
+						<div id="tagline">
+						</div>
+						
+						<ul class="row list-unstyled w-100" id="anchor-links">
+							<li class="col-md">
+								<a href="#bio-tag">Bio</a>
+							</li>
+							<li class="col-md">
+								<a href="#projects-tag">My Work</a>
+							</li>
+							<li class="col-md">
+								<a href="#contact-tag">Contact Me</a>
+							</li>
+						</ul>
+					
+
+					</div>
+
+				
+
+				</div>
+			</section>
+
+
+			<section>
+				<a id="bio-tag"></a>
+
+				<div class="section-container container-fluid d-flex" id="bio-section">
+
+					<div class="row align-self-center">
+
+						<div class="col-lg-4" id="avatar-container">
+							<img id="avatar" src="static/avatar.png" alt="..." />
+						</div>	
+
+						<div class="col-lg-8" id="bio-container">
+
+							<div id="bio-content">
+								<p>
+									
+									I design and build full-stack applications. I'm also an AWS-certified cloud architect. 
+
+								</p>
+							</div>
+
+							<div id="resume-link-container" ><a href="static/resume.pdf" target="_blank" class="btn btn-outline-primary">See my resume</a></div>
+
+							<div>
+								<ul class="row list-unstyled" id="personal-links">
+
+									<li class="col-md"><a href="https://www.github.com/hnryzhng" target="_blank" class="btn btn-primary w-100">GitHub</a></li>
+
+									<li class="col-md"><a href="https://www.linkedin.com/in/hnryzhng" target="_blank" class="btn btn-primary w-100">LinkedIn</a></li>
+
+								</ul>
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+			</section>
+
+
+			<section>
+				<a id="projects-tag"></a>
+
+				<div class="section-container container-fluid" id="projects-section">
+					
+					<div class="row d-flex justify-content-center">
+						<h2 class="section-heading">My Work</h2>
+					</div>
+
+
+					<div class="row d-flex justify-content-center d-md-inline-flex d-sm-none" id="projects-button">
+						<a href="projects.html" class="btn btn-outline-primary" id="projects-button link">	Click to see all of my projects
+						</a>
+					</div>
+
+					<div class="row" id="card-row">
+
+
+							<div class="col-md card">
+								<div class="card-img-container">
+									<a href="https://shop-n-pay.herokuapp.com/shopping" alt="">
+										<img src="./static/portfolio-images/e-commerce.png" class="card-img-top" alt="...">
+									</a>
+								</div>
+
+								<div class="card-body">
+									<a href="https://shop-n-pay.herokuapp.com/shopping" alt="">
+										<h5 class="card-title"><p>				Shop-n-Pay
+										</p></h5>
+									</a>
+									<p class="card-text">
+										Fully scalable, one-stop e-commerce platform from sales to payment. Tech: React.js, Redux, Node.js, Stripe API
+									</p>
+
+
+									<div class="row">
+										<a href="https://shop-n-pay.herokuapp.com/shopping" class="btn btn-primary col-md mr-md-2 mt-2">View project</a>
+									</div>
+
+								</div>
+							</div>
+
+
+							<div class="col-md card">
+
+								<div class="card-img-container">
+									<a href="https://mini-fridge.herokuapp.com/" alt="">
+										<img src="./static/portfolio-images/mini-fridge.png" class="card-img-top" alt="...">
+									</a>
+								</div>
+								
+								<div class="card-body">
+									<a href="https://mini-fridge.herokuapp.com/" alt="">
+										<h5 class="card-title"><p>Mini Fridge</p></h5>
+									</a>
+									<p class="card-text">
+										A cloud service for your files similar to DropBox and Amazon Drive. Uses React.js on the front end, Node.js and MongoDB on the backend.
+									</p>
+
+									<div class="row">
+										<a href="https://mini-fridge.herokuapp.com/" class="btn btn-primary col-md mr-md-2 mt-2">View project</a>
+										<a href="https://github.com/hnryzhng/mini-fridge/" class="btn btn-dark col-md mt-2">GitHub code</a>
+									</div>
+
+								</div>
+							</div>
+
+
+							<div class="col-md card">
+
+								<div class="card-img-container">
+									<a href="https://pay-your-way.herokuapp.com/" alt="">
+										<img src="./static/portfolio-images/payment-portal.png" class="card-img-top" alt="...">
+									</a>
+								</div>
+
+								<div class="card-body">
+									<a href="https://pay-your-way.herokuapp.com/" alt="">
+										<h5 class="card-title"><p>
+											Payment Portal
+										</p></h5>
+									</a>
+									<p class="card-text">
+										Online payment portal for e-commerce service. Tech: React.js, Redux, Node.js, Stripe API
+									</p>
+
+									<div class="row">
+										<a href="https://pay-your-way.herokuapp.com/" class="btn btn-primary col-md mr-md-2 mt-2">View project</a>
+									</div>
+
+								</div>
+							</div>
+
+
+						</div>
+
+					</div>
+
+					<div class="row d-flex justify-content-center d-md-none" id="projects-button">
+						<a href="projects.html" class="btn btn-outline-primary" id="projects-button link">	Click to see all of my projects
+						</a>
+					</div>
+
+				</div>
+
+			</section>
+
+<!-- 
+			<section>
+				<a id="contact-tag"></a>
+
+				<div class="section-container" id="contact-section">
+
+					<h2 class="section-heading" id="contact-section-heading">Contact Me</h2>
+
+					<div class="container-fluid">
+						<div class="form-group" id="contact-form">
+							
+							<form id="contact-form" action="send-contact-info" method="post">
+
+									<div class="row">
+										<input type="text" class="col form-control form-control-lg" id="form-name" placeholder="Name" name="name"/>
+									</div>
+
+									<div class="row">
+										<input type="text" class="col form-control form-control-lg" id="form-email" placeholder="Email" name="email"/>
+									</div>
+
+									<div class="row">
+										<textarea type="text" class="form-control form-control-lg" id="form-message" placeholder="Message" name="message"></textarea>
+									</div>
+
+									<div class="row">
+										<input type="submit" class="btn btn-light btn-lg" id="contact-submit-button">
+									</div>
+
+							</form>
+
+					</div>
+					
+				</div>
+			</section> -->
+
+		</div>
+
+
+
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+
+	<!-- call Popper, Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+</document>

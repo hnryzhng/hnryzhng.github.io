@@ -1,0 +1,185 @@
+.section-container {
+	min-height: 100vh;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+h2, h5, p {
+	color: #2c3e50;
+}
+
+.section-heading {
+	text-align: center;
+	font-size: 3.8em;
+	margin-bottom: 0.8em;
+}
+
+#logo-container {
+	display: none;
+	//width: 3em;
+	//height: 3em;
+	//margin: 0 auto;
+	//border: 1px solid black;
+	//border-radius: 100%;
+}
+
+#logo {
+	display: none;
+	width: 30%;
+}
+
+#name {
+	text-align: center;
+	font-size: 8em;
+	z-index: 9999;
+}
+
+#tagline {
+	padding-top: 1em;
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 2em;
+}
+
+#anchor-links {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#anchor-links a {
+	/*color: #fff;*/
+	font-size: 1.1em;
+}
+
+#bio-section {
+	background-color: rgba(241,241,241,.5);
+}
+
+#avatar-container {
+	/*border: 1px solid black;*/
+	width: 100%;
+}
+
+#avatar {
+	width: 90%;
+	margin-left: 2em;
+	border-radius: 100%;
+}
+
+#bio-container div {
+	margin-top: 1.5em;
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+
+}
+
+#bio-content {
+	font-size: 1.5em;
+}
+
+#resume-link-container {
+	width: 100%;
+	text-align: center;
+}
+
+#resume-link-container a {
+	font-size: 1.3em;
+}
+
+#personal-links li a {
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: 0.5em;
+}
+
+#projects-message {
+	width: 80%;
+	margin: 0 auto;
+	color: #c4c4c4;
+	font-size: 1.5em;
+	font-family: serif;
+	padding: 1em 1.5em 1em 1.5em;
+	border: 1px solid #f2f2f2;
+	border-radius: 2em;
+	background-color: white;
+	box-shadow: 2px 1px 5px #aaaaaa;
+	
+}
+
+.card {
+	margin-right: 1em;
+	margin-left: 2em;
+	margin-bottom: 2em;
+}
+
+.card-img-container {
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.card-title {
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#projects-button {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+#projects-button a {
+	font-size: 1.5em;
+}
+
+#contact-tag {
+	color: #fff;
+}
+
+#contact-section {
+	/*background-color: #c2c2c2;*/
+	background-color: #000
+}
+
+#contact-section-heading {
+	color: #fff;
+}
+
+#contact-form {
+	width: 60vw;
+	margin: 0 auto;
+}
+
+.row {
+	margin-top: 2em;
+}
+
+#contact-submit-button {
+	margin: 0 auto;
+}
+
+#form-message {
+	resize: none;
+	height: 8em;
+}
+
+@media only screen and (max-width: 768px) {
+	/* for mobile devices only */
+	
+	#name {
+		font-size: 4.8em;
+	}
+
+	#bio-content {
+		font-size: 1.2em;
+	}
+
+	#avatar-container {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	#avatar {
+		margin-left: 0;
+	}
+
+}
